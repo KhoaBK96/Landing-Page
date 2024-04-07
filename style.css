@@ -27,9 +27,6 @@
     color: #f9faf8;
 }
 
-.card button{
-    background-color: #3882f6;
-}
 
 .information{
     font-size: 36px;
@@ -63,12 +60,14 @@ ul{
 .header-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 100px 200px;
     gap: 30px
 }
 
 .header-content{
-    padding: 5px;
+    padding: 5px ;
+    
 }
 
 li{
@@ -79,12 +78,114 @@ a{
     text-decoration: none;
 }
 
-img{
-    width: 900px;
-    height: 200px;
+.header-container img{
+    width: 500px;
+    height: 100%;
+    flex-shrink: 0;
 }
 
 .signup{
     padding: 10px 30px;
     border-radius: 10px;
+}
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  
+
+.information{
+    margin:20px auto;   
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 300px;
+}
+
+.author{
+    align-self: flex-end;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: #3882f6;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.section-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    color: #fff;
+}
+
+.container-text p{
+    font-size: 200;
+}
+
+.container button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 5px 40px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    padding: 20px 30px;
 }
